@@ -2,8 +2,7 @@
 
 <p>
 Easily create dragabble menu <br>
-Note: 3 new views will add soon <br>
-This package will include four draggable menu views with animation
+The gifs are not very good quality. Content is fluid. Sorry for this :(
 </p>
 
 ## How to install this package 
@@ -14,7 +13,7 @@ This package will include four draggable menu views with animation
 + Don't change anything and click Add Package
 + The package will be attached to the targeted application
 
-# LeftDragMenu
+# LeftDraggableMenu
 
 ## How to use this package
 
@@ -33,6 +32,33 @@ struct DemoView: View {
 ```
 
 <img src="https://github.com/devmehmetates/SwiftUIDragMenu/blob/main/Sources/Resources/Ekran-Kayd%C4%B1-2021-11-15-17.08.22.gif">
+
+## Variables Usage
+
+| Variable | Type | Recommend Usage |
+| -------- | ---- | --------------- |
+| content | View | Use with padding |
+| secondContent | View | Use with padding |
+
+# LeftAnimatedMenu
+
+Button configuration will be added
+
+```swift
+import SwiftUIDragMenu
+
+struct DemoView: View {
+    var body: some View {
+        LeftAnimatedMenu {
+                // Your main screenView
+            } seconContent: {
+                // Your dragmenuView
+            }
+    }
+}
+```
+
+<img src="https://github.com/devmehmetates/SwiftUIDragMenu/blob/main/Sources/Resources/Ekran%20Kayd%C4%B1%202021-11-15%2019.41.00.gif">
 
 ## Variables Usage
 
