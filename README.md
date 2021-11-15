@@ -24,7 +24,7 @@ struct DemoView: View {
     var body: some View {
         LeftDraggableMenu {
                 // Your main screenView
-            } seconContent: {
+            } secondContent: {
                 // Your dragmenuView
             }
     }
@@ -51,7 +51,7 @@ struct DemoView: View {
     var body: some View {
         LeftAnimatedMenu {
                 // Your main screenView
-            } seconContent: {
+            } secondContent: {
                 // Your dragmenuView
             }
     }
