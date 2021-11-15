@@ -33,6 +33,7 @@ struct DemoView: View {
 ```
 
 <img src="https://github.com/devmehmetates/SwiftUIDragMenu/blob/main/Sources/Resources/Ekran-Kayd%C4%B1-2021-11-15-17.08.22.gif">
+
 ## Variables Usage
 
 | Variable | Type | Recommend Usage |
