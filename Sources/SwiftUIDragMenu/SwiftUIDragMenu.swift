@@ -1,13 +1,6 @@
 import SwiftUI
 
 
-public struct SwiftUIDragMenu {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
-    }
-}
-
 
 @available(iOS 13.0, *)
 public struct LeftDragableMenu<Content : View , SecondContent : View> : View{
