@@ -23,7 +23,7 @@ import SwiftUIDragMenu
 
 struct DemoView: View {
     var body: some View {
-        LeftDragableMenu {
+        LeftDraggableMenu {
                 // Your main screenView
             } seconContent: {
                 // Your dragmenuView

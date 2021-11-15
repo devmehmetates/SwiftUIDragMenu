@@ -3,7 +3,7 @@ import SwiftUI
 
 
 @available(iOS 13.0, *)
-public struct LeftDragableMenu<Content : View , SecondContent : View> : View{
+public struct LeftDraggableMenu<Content : View , SecondContent : View> : View{
     @State private var dragOffSet = -UIScreen.main.bounds.width * 0.75 as CGFloat
     @State private var shadowOpa = 0.0
     @Environment (\.colorScheme) private var colorScheme
